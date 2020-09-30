@@ -1,0 +1,23 @@
+{
+    "name": "rxjs6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "create": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teana0953/rxjs6.git"
+    },
+    "author": "Tina.Liang",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/teana0953/rxjs6/issues"
+    },
+    "homepage": "https://github.com/teana0953/rxjs6#readme",
+    "devDependencies": {
+        "fs-extra": "^9.0.1"
+    },
+    "dependencies": {}
+}

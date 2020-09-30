@@ -1,0 +1,33 @@
+{
+    "name": "rxjs6",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "prebuild": "node prebuild.js",
+        "build": "npx webpack --config webpack.config.js",
+        "postbuild": "node postbuild.js",
+        "start": "npm run build & webpack-dev-server --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teana0953/rxjs6.git"
+    },
+    "author": "Tina.Liang",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/teana0953/rxjs6/issues"
+    },
+    "homepage": "https://github.com/teana0953/rxjs6#readme",
+    "devDependencies": {
+        "@types/node": "12.12.6",
+        "css-loader": "^4.3.0",
+        "style-loader": "^1.2.1",
+        "ts-loader": "^8.0.4",
+        "ts-node": "8.10.2",
+        "typescript": "3.8.3",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {}
+}
