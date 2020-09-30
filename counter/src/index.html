@@ -4,11 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Counter</title>
 </head>
 
 <body>
-    Template!!
+    <div class="action">
+        <button class="action__button action__button--start">開始新的計數器</button>
+        <button class="action__button action__button--count">計數</button>
+        <button class="action__button action__button--error">發生錯誤</button>
+        <button class="action__button action__button--end">完成計數</button>
+    </div>
+    <div class="text text--hide">
+        <p class="text__title">目前狀態:
+            <span class="text__title__content text__title__content--status"></span>
+        </p>
+        <p class="text__title">目前計數:
+            <span class="text__title__content text__title__content--count"></span>
+        </p>
+        <p class="text__title">偶數計數:
+            <span class="text__title__content text__title__content--even-count"></span>
+        </p>
+    </div>
+
 </body>
 
 <script src="bundle.js"></script>
